@@ -1,0 +1,17 @@
+C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\obj\Debug\net6.0\Advent2022.csproj.AssemblyReference.cache
+C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\obj\Debug\net6.0\Advent2022.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\obj\Debug\net6.0\Advent2022.AssemblyInfoInputs.cache
+C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\obj\Debug\net6.0\Advent2022.AssemblyInfo.cs
+C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\obj\Debug\net6.0\Advent2022.csproj.CoreCompileInputs.cache
+C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\bin\Debug\net6.0\Program.cs
+C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\bin\Debug\net6.0\Advent2022.exe
+C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\bin\Debug\net6.0\Day1Input.txt
+C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\bin\Debug\net6.0\Advent2022.deps.json
+C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\bin\Debug\net6.0\Advent2022.runtimeconfig.json
+C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\bin\Debug\net6.0\Advent2022.dll
+C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\bin\Debug\net6.0\Advent2022.pdb
+C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\obj\Debug\net6.0\Advent2022.dll
+C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\obj\Debug\net6.0\refint\Advent2022.dll
+C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\obj\Debug\net6.0\Advent2022.pdb
+C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\obj\Debug\net6.0\Advent2022.genruntimeconfig.cache
+C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\obj\Debug\net6.0\ref\Advent2022.dll
