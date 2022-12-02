@@ -2,4 +2,4 @@
 using Advent2022;
 
 Console.WriteLine("Hello, World!");
-Day1.Run();
+Day2.Run();
