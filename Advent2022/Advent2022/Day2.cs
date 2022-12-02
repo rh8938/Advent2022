@@ -22,6 +22,9 @@ namespace Advent2022
         {
             Console.WriteLine("Part 1");
             int score = 0;
+
+
+
             foreach (var line in File.ReadAllLines("Day2Input.txt"))
             {
                 var plan = line.Split(" ");
@@ -34,8 +37,10 @@ namespace Advent2022
             }
             Console.WriteLine(score);
 
-            Console.WriteLine("Part 2"); 
+
+            Console.WriteLine("Part 2");
             int scoreP2 = 0;
+
             foreach (var line in File.ReadAllLines("Day2Input.txt"))
             {
                 var plan = line.Split(" ");
@@ -51,13 +56,13 @@ namespace Advent2022
                     switch (p1Choice)
                     {
                         case RPS.Rock:
-                            p2Choice = RPS.Paper;      
+                            p2Choice = RPS.Paper;
                             break;
                         case RPS.Paper:
                             p2Choice = RPS.Scissors;
                             break;
                         case RPS.Scissors:
-                            p2Choice= RPS.Rock;
+                            p2Choice = RPS.Rock;
                             break;
                         case RPS.None:
                             throw new Exception("FAULTED");
@@ -88,9 +93,9 @@ namespace Advent2022
                 //Console.WriteLine(line);
                 //Console.WriteLine(s);
                 scoreP2 += s;
-                Console.WriteLine(scoreP2);
             }
-    }
+            Console.WriteLine(scoreP2);
+        }
 
         public static int GetP2Score(RPS p1, RPS p2)
         {
@@ -134,5 +139,56 @@ namespace Advent2022
 
             return score;
         }
+
+
+        public static void Run2()
+        {
+            Console.WriteLine("Part 1.2");
+
+            IDictionary<string, int> scores = new Dictionary<string, int>();
+            scores.Add("A X", 4);
+            scores.Add("A Y", 8);
+            scores.Add("A Z", 3);
+
+            scores.Add("B X", 1);
+            scores.Add("B Y", 5);
+            scores.Add("B Z", 9);
+
+            scores.Add("C X", 7);
+            scores.Add("C Y", 2);
+            scores.Add("C Z", 6);
+
+            int scoreMethod2 = 0;
+            foreach (var line in File.ReadAllLines("Day2Input.txt"))
+            {
+                scoreMethod2 += scores.First(x => x.Key == line).Value;
+            }
+
+            Console.WriteLine(scoreMethod2);
+
+            Console.WriteLine("Part 2.2");
+            scores.Clear();
+
+            scores.Add("A X", 3);
+            scores.Add("A Y", 4);
+            scores.Add("A Z", 8);
+
+            scores.Add("B X", 1);
+            scores.Add("B Y", 5);
+            scores.Add("B Z", 9);
+
+            scores.Add("C X", 2);
+            scores.Add("C Y", 6);
+            scores.Add("C Z", 7);
+
+            scoreMethod2 = 0;
+            foreach (var line in File.ReadAllLines("Day2Input.txt"))
+            {
+                scoreMethod2 += scores.First(x => x.Key == line).Value;
+            }
+
+            Console.WriteLine(scoreMethod2);
+        }
     }
 }
+
