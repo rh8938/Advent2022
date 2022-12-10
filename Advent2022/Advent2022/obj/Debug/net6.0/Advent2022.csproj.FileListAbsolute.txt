@@ -16,3 +16,4 @@ C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\obj\Debug\net6.0\Ad
 C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\obj\Debug\net6.0\Advent2022.genruntimeconfig.cache
 C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\obj\Debug\net6.0\ref\Advent2022.dll
 C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\bin\Debug\net6.0\Day2Input.txt
+C:\Users\rh893\source\repos\Advent2022\Advent2022\Advent2022\bin\Debug\net6.0\Day3Input.txt
